@@ -1,0 +1,6 @@
+.destination {
+  position: relative;
+  width: 100%;
+  border: transparent;
+  overflow: hidden;
+}

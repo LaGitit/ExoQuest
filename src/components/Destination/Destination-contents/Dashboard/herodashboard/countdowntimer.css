@@ -1,0 +1,42 @@
+.countdown-timer {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  font-weight: 600;
+  padding: 0.8rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  gap: 0.25rem;
+  border: 1px solid rgba(0, 183, 255, 0.3);
+  animation: fadeIn 0.8s ease-in-out;
+}
+.countdown-timer:hover {
+  border-color: rgba(0, 183, 255, 0.6);
+}
+
+.countdown-label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: rgba(173, 216, 230, 0.7);
+}
+
+.countdown-time {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px rgba(0, 183, 255, 0.6);
+  letter-spacing: 0.1em;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,20 @@
+.last-section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+
+  background: linear-gradient(to bottom, #000 0%, transparent 100%);
+
+  color: #e0f7ff;
+}
+
+.last-section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00ffff;
+  text-shadow: 0 0 8px rgba(0, 255, 255, 0.6);
+}
