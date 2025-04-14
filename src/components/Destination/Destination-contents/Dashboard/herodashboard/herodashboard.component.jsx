@@ -31,7 +31,7 @@ export function HeroDashboard() {
 
   const bind = useGesture({
     onDrag: ({ movement: [mx], direction: [xDir], last }) => {
-      const threshold = 50;
+      const threshold = 30;
       if (last && Math.abs(mx) > threshold) {
         paginate(xDir > 0 ? -1 : 1);
       }
@@ -75,12 +75,13 @@ export function HeroDashboard() {
             exit={{ scaleY: 0, opacity: 0 }}
             transition={{ duration: 0.5, ease: [0.68, -0.6, 0.32, 1.6] }}
           >
-            <img
-              {...bind()}
-              src={currentPlanet.image}
-              alt={currentPlanet.name}
-              className="planet-image"
-            />
+            <div className="swipe-area" {...bind()}>
+              <img
+                src={currentPlanet.image}
+                alt={currentPlanet.name}
+                className="planet-image"
+              />
+            </div>
 
             <div className="holographic-overlay" />
             <div className="static-overlay" />

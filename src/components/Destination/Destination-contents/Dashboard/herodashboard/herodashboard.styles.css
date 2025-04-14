@@ -98,6 +98,12 @@
   justify-content: center;
 }
 
+.swipe-area {
+  width: fit-content;
+  margin: 0 auto;
+  touch-action: pan-y;
+}
+
 .planet-image {
   width: min(70%, 400px);
   aspect-ratio: 1/1;
