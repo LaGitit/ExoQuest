@@ -13,7 +13,7 @@ export function PlanetProvider({ children }) {
         y: "Y:-230.7",
         z: "Z:+190.8",
       },
-      image: "/ExoQuest/imgPG.png",
+      image: "/ExoQuest/imgPG.jpg",
       Ximg: ["/ExoQuest/XenFiles/1-1.jpg", "/ExoQuest/XenFiles/1-2.jpg"],
       culturalLog:
         "Local flora emit bioluminescent patterns at night—recent studies suggest these patterns form a rudimentary language system used for cross-species communication.",
@@ -82,7 +82,7 @@ export function PlanetProvider({ children }) {
         y: "Y:+543.2",
         z: "Z:-076.9",
       },
-      image: "/ExoQuest/imgPW.png",
+      image: "/ExoQuest/imgPW.jpg",
       Ximg: ["/ExoQuest/XenFiles/2-1.jpg", "/ExoQuest/XenFiles/2-2.jpg"],
       culturalLog:
         "Okeanos-7's vast, liquid landscapes have inspired legends of aquatic deities and mysterious underwater cities. Its seas sparkle with an ethereal glow.",

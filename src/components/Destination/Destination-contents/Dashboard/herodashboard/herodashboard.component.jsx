@@ -30,18 +30,22 @@ export function HeroDashboard() {
   }, [currentPlanet]);
 
   const bind = useGesture({
-    onDrag: ({ movement: [mx], direction: [xDir], last }) => {
-      const threshold = 30;
-      if (last && Math.abs(mx) > threshold) {
+    onDrag: ({ movement: [mx, my], direction: [xDir], last }) => {
+      if (last && Math.abs(mx) > 50 && Math.abs(mx) > Math.abs(my)) {
         paginate(xDir > 0 ? -1 : 1);
       }
     },
   });
+
   return (
     <div className="dashboard" id="hero-dashboard" ref={section1Ref}>
       <div className="dog-ear-label">Upcoming Launches</div>
 
-      <Motion.div className="planet-card">
+      <Motion.div
+        className="planet-card"
+        {...bind()}
+        style={{ touchAction: "pan-y" }}
+      >
         <div className={`planet-info ${infoVisible ? "visible" : ""}`}>
           <h2 className="planet-name">
             {typing && (
@@ -75,13 +79,11 @@ export function HeroDashboard() {
             exit={{ scaleY: 0, opacity: 0 }}
             transition={{ duration: 0.5, ease: [0.68, -0.6, 0.32, 1.6] }}
           >
-            <div className="swipe-area" {...bind()}>
-              <img
-                src={currentPlanet.image}
-                alt={currentPlanet.name}
-                className="planet-image"
-              />
-            </div>
+            <img
+              src={currentPlanet.image}
+              alt={currentPlanet.name}
+              className="planet-image"
+            />
 
             <div className="holographic-overlay" />
             <div className="static-overlay" />
