@@ -57,7 +57,8 @@ export function ContactPage() {
             background: "linear-gradient(90deg, #00ffff, #8a2be2)",
             backgroundClip: "text",
             mb: 2,
-            letterSpacing: "0.05em",
+            fontFamily: '"Orbitron", sans-serif',
+            letterSpacing: "0.09em",
             textTransform: "uppercase",
             fontSize: { xs: "1.5rem", sm: "2.1rem" },
           }}

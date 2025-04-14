@@ -31,7 +31,7 @@ const starTheme = createTheme({
 const reviews = [
   {
     name: "Commander Ayla Rynn",
-    avatar: "/reviewAvatar/1.jpg",
+    avatar: "/ExoQuest/reviewAvatar/1.jpg",
     quote:
       "Witnessing the quantum auroras from ExoQuest's orbital platform redefined my understanding of beauty. The crew's expertise made me feel safer than on Earth.",
     stars: 5,
@@ -40,7 +40,7 @@ const reviews = [
   },
   {
     name: "Dr. Kaelen Vos",
-    avatar: "/reviewAvatar/2-1.jpg",
+    avatar: "/ExoQuest/reviewAvatar/2-1.jpg",
     quote:
       "As a scientist, I'm skeptical by nature. But their zero-gravity research module exceeded all specifications. We collected unprecedented data on dark matter fluctuations.",
     stars: 5,
@@ -49,7 +49,7 @@ const reviews = [
   },
   {
     name: "Juno Tavik",
-    avatar: "/reviewAvatar/2.jpg",
+    avatar: "/ExoQuest/reviewAvatar/2.jpg",
     quote:
       "The Neptune skydive experience? Absolutely transcendental. The 120-second freefall through the upper atmosphere was worth every credit. Media crew captured perfect footage.",
     stars: 5,
@@ -58,7 +58,7 @@ const reviews = [
   },
   {
     name: "Engineer Eren Maku",
-    avatar: "/reviewAvatar/3.jpg",
+    avatar: "/ExoQuest/reviewAvatar/3.jpg",
     quote:
       "Their ship maintenance is impeccable. As a propulsion specialist, I inspected every system - flawless redundancies. The Mars cycler habitat modules are engineering poetry.",
     stars: 4,

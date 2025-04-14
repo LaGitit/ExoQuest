@@ -1,12 +1,39 @@
-# React + Vite
+**#ExoQuest**
+A visually immersive space exploration demo built with React + Vite
+ExoQuest is a sleek, performance-focused space exploration interface crafted using modern frontend technologies. It simulates the experience of journeying through the cosmos — with stunning visuals, dynamic animations, and intuitive navigation.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is both a creative concept and a technical demonstration of my frontend capabilities. It's fast, responsive, and built with scalability in mind.
 
-Currently, two official plugins are available:
+##Tech Stack
+React – Component-based UI framework
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite – Lightning-fast build tool
 
-## Expanding the ESLint configuration
+JavaScript/ES6+ – Clean, modular code
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+GitHub Pages – For live deployment
+
+##Features
+
+Cosmic destinations with interactive visuals
+
+Fleet showcase with smooth transitions
+
+User reviews and galaxy-themed UI
+
+Optimized asset loading for speed
+
+Fully responsive on all screen sizes
+
+##Why I Built This
+I wanted to create something that not only looked cool but also allowed me to dive into performance optimization and React component design. ExoQuest is a playground to experiment, learn, and push my frontend limits.
+
+#Credits
+Imagery and concepts: Designed and organized by me
+
+Assets: Royalty-free or AI-assisted visuals
+
+Logo: Custom SVG made using Figma
+
+📄 License
+This project is licensed under the MIT License — meaning it’s open for personal, educational, and even commercial use with attribution.

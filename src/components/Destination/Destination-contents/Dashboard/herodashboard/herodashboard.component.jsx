@@ -38,12 +38,7 @@ export function HeroDashboard() {
     },
   });
   return (
-    <div
-      className="dashboard"
-      {...bind()}
-      id="hero-dashboard"
-      ref={section1Ref}
-    >
+    <div className="dashboard" id="hero-dashboard" ref={section1Ref}>
       <div className="dog-ear-label">Upcoming Launches</div>
 
       <Motion.div className="planet-card">
@@ -81,6 +76,7 @@ export function HeroDashboard() {
             transition={{ duration: 0.5, ease: [0.68, -0.6, 0.32, 1.6] }}
           >
             <img
+              {...bind()}
               src={currentPlanet.image}
               alt={currentPlanet.name}
               className="planet-image"

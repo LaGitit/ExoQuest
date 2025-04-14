@@ -7,7 +7,7 @@ import { useInView } from "../hooks/useInView.jsx";
 const fleet = [
   {
     name: "Xerion IX",
-    image: "/fleet/1.jpg",
+    image: "/ExoQuest/fleet/1.jpg",
     speed: "Warp 9.2",
     class: "Explorer",
     tech: ["Quantum Shields", "Ion Pulse Drive"],
@@ -15,7 +15,7 @@ const fleet = [
   },
   {
     name: "Astra Vela",
-    image: "/fleet/2.jpg",
+    image: "/ExoQuest/fleet/2.jpg",
     speed: "Warp 8.6",
     class: "Cruiser",
     tech: ["Plasma Torpedoes", "Nano Repair AI"],
@@ -23,7 +23,7 @@ const fleet = [
   },
   {
     name: "Orion Wraith",
-    image: "/fleet/3.jpg",
+    image: "/ExoQuest/fleet/3.jpg",
     speed: "Warp 9.4",
     class: "Interceptor",
     tech: ["Photon Shields", "Dark Matter Core"],
@@ -31,7 +31,7 @@ const fleet = [
   },
   {
     name: "Celestis Ark",
-    image: "/fleet/4.jpg",
+    image: "/ExoQuest/fleet/4.jpg",
     speed: "Warp 8.9",
     class: "Carrier",
     tech: ["AI Navigation", "Gravity Wells"],

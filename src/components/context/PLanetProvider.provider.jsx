@@ -13,8 +13,8 @@ export function PlanetProvider({ children }) {
         y: "Y:-230.7",
         z: "Z:+190.8",
       },
-      image: "/imgPG.png",
-      Ximg: ["/XenFiles/1-1.jpg", "/XenFiles/1-2.jpg"],
+      image: "/ExoQuest/imgPG.jpg",
+      Ximg: ["/ExoQuest/XenFiles/1-1.jpg", "/ExoQuest/XenFiles/1-2.jpg"],
       culturalLog:
         "Local flora emit bioluminescent patterns at night—recent studies suggest these patterns form a rudimentary language system used for cross-species communication.",
       artifacts: [
@@ -82,8 +82,8 @@ export function PlanetProvider({ children }) {
         y: "Y:+543.2",
         z: "Z:-076.9",
       },
-      image: "/imgPW.png",
-      Ximg: ["/XenFiles/2-1.jpg", "/XenFiles/2-2.jpg"],
+      image: "/ExoQuest/imgPW.jpg",
+      Ximg: ["/ExoQuest/XenFiles/2-1.jpg", "/ExoQuest/XenFiles/2-2.jpg"],
       culturalLog:
         "Okeanos-7's vast, liquid landscapes have inspired legends of aquatic deities and mysterious underwater cities. Its seas sparkle with an ethereal glow.",
       artifacts: [
@@ -154,8 +154,8 @@ export function PlanetProvider({ children }) {
         y: "Y:+067.8",
         z: "Z:+012.4",
       },
-      image: "/imgPF.jpg",
-      Ximg: ["/XenFiles/3-1.jpg", "/XenFiles/3-2.jpg"],
+      image: "/ExoQuest/imgPF.jpg",
+      Ximg: ["/ExoQuest/XenFiles/3-1.jpg", "/ExoQuest/XenFiles/3-2.jpg"],
       culturalLog:
         "Drakarus-9 is a drought-stricken world of cracked earth and dry winds. Ruins of a once water-wise civilization still scatter the barren landscape.",
       artifacts: [
@@ -226,8 +226,8 @@ export function PlanetProvider({ children }) {
         y: "Y:-012.3",
         z: "Z:+089.5",
       },
-      image: "/imgPLi.jpg",
-      Ximg: ["/XenFiles/4-1.jpg", "/XenFiles/4-2.jpg"],
+      image: "/ExoQuest/imgPLi.jpg",
+      Ximg: ["/ExoQuest/XenFiles/4-1.jpg", "/ExoQuest/XenFiles/4-2.jpg"],
       culturalLog:
         "Xyphor, with its ethereal glow and silver landscapes, is shrouded in mystery. Lunar legends speak of hidden temples beneath its surface, lost to time.",
       artifacts: [
