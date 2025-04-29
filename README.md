@@ -1,8 +1,18 @@
-**#ExoQuest**
+## ExoQuest
+**Space Exploration Interface**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-brightgreen)](https://LaGitit.github.io/exoquest)  
+
+<div align="center">
+  <img src="/previews/Hero.png" width="600" alt="ExoQuest Hero">
+  <p><em>Hero Section</em></p>
+</div>
+
 A visually immersive space exploration demo built with React + Vite
 ExoQuest is a sleek, performance-focused space exploration interface crafted using modern frontend technologies. It simulates the experience of journeying through the cosmos — with stunning visuals, dynamic animations, and intuitive navigation.
 
-This project is both a creative concept and a technical demonstration of my frontend capabilities. It's fast, responsive, and built with scalability in mind.
+
 
 ##Tech Stack
 React – Component-based UI framework
